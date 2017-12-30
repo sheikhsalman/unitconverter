@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.salmanahmed.unitconverter.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/topbar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="139dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/temp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="139dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/area"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="139dp"
+        android:layout_height="127dp"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/length"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+</LinearLayout>
